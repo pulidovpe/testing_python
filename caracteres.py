@@ -1,7 +1,5 @@
 class Caracteres:
 
-	def mayusculas(self):
+	def mayusculas(self, palabra):
 
-		pass
-
-	
+		return palabra.upper()
