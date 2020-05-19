@@ -7,3 +7,9 @@ class TestsBasicos(unittest.TestCase):
 
 		calc = Calculadora()
 		self.assertEqual(0,calc.valor())
+
+	def test_suma_de_dos_numeros_debe_dar_5(self):
+
+		calc = Calculadora()
+		calc.suma(2,3)
+		self.assertEqual(5,calc.valor())
